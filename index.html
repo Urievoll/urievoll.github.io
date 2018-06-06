@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>QQ!</title>
+        <link rel="stylesheet" href="yui-style.css">
+        <!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?154"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 6492770, onlyWidgets: true});
+</script>
+    </head>
+    <body>
+        <div id="impress" class="impress-not-supported">
+            
+            <div id="i1" class="step" data-x="0" data-y="0">
+                <p>Привет</p>
+            </div>
+		    
+		    <div id="i2" class="step" data-x="1100" data-y="1200" data-scale="1.8" data-rotate="190">
+                <p>Как дела?</p>
+            </div>
+		    
+		    <div id="i3" class="step" data-x="-300" data-y="600" data-scale="0.2" data-rotate="270">
+                <p>Что делаешь?</p>
+            </div>
+		    
+		    <div id="i4" class="step" data-x="-200" data-y="1500" data-rotate="180">
+                <!-- Put this div tag to the place, where the Comments block will be -->
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 20, attach: "*"});
+</script>
+            </div>
+		    
+		    <div id="i5" class="step" data-x="-1200" data-y="1000" data-scale="0.8" data-rotate="270">
+                <p>Поговори со мной...</p>
+            </div>
+            
+        </div>    
+        
+        <a id="arrowLeft" class="arrow">&lt;</a>
+		<a id="arrowRight" class="arrow">&gt;</a>
+        
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="yui-impress.js"></script>
+		<script src="yui-script.js"></script>
+    </body>
+</html>
